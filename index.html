@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Aine Ai</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/616531bbc6.js" crossorigin="anonymous"></script>
+</head>
+<div>
+    <div class="wrap">
+        <div class="sidebar">
+            <img src="IMG_20210704_205908 (1).ico" alt="">
+
+            <a href=""><i class="far fa-user"></i>Students</ai>
+                <a onclick="myFunction()"><i class="fas fa-book"></i>Lesson Plan</a>
+                <a href=""><i class="fas fa-cog"></i>Settings</a>
+
+        </div>
+        <div class="main"  >
+            <div class="header">
+            </div>
+            <div class="sub" id="content1" style="visibility: hidden;">
+                <span><i class="fas fa-caret-left"></i>Videos</span>
+                <br>
+                <input type="url" id="url" placeholder="Insert URL here">
+                <br>
+                <p>or</p>
+                <br>
+                <input type="file" id="upload">
+                <label for="upload">upload</label>
+            </div>
+        </div>
+    </div>
+    </body>
+    <script type="text/javascript">
+        function myFunction() {
+            document.getElementById('content1').style.visibility = 'visible';
+        }
+    </script>
+
+</html>
