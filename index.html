@@ -13,7 +13,7 @@
             <img src="IMG_20210704_205908 (1).ico" alt="">
 
             <a href=""><i class="far fa-user"></i>Students</ai>
-                <a onclick="myFunction()"><i class="fas fa-book"></i>Lesson Plan</a>
+                <a  onclick="myFunction()" id="active" ><i class="fas fa-book"></i>Lesson Plan</a>
                 <a href=""><i class="fas fa-cog"></i>Settings</a>
 
         </div>
@@ -35,7 +35,11 @@
     </body>
     <script type="text/javascript">
         function myFunction() {
+            var element=document.getElementById('active');
+            element.style.backgroundColor='#d6dee6';
+            element.style.borderLeft='2px solid blue';
             document.getElementById('content1').style.visibility = 'visible';
+
         }
     </script>
 

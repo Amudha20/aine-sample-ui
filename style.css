@@ -66,10 +66,6 @@ body{
     justify-content: center;
     font-weight: bold;
 }
-.active{
-    background-color: #d6dee6;
-    border-left: 2px solid blue;
-}
 
 .main .sub span{
     font-size: 15px;
